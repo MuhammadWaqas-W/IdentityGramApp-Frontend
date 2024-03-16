@@ -1,0 +1,1 @@
+export * from './verified-document-bar-chart';

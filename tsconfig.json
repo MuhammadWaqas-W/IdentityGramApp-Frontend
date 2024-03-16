@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@utils": ["./@next/utils"],
+      "@types": ["./@next/types"],
+      "@layouts": ["./@next/layouts"],
+      "@components/*": ["./@next/components"],
+      "@templates": ["./@next/components/templates"],
+      "@organisms": ["./@next/components/organisms"],
+      "@molecules": ["@next/components/molecules"],
+      "@atoms": ["./@next/components/atoms"],
+      "@context": ["./@next/context"],
+      "@styles": ["./@next/styles"],
+      "@pages": ["./@next/pages"],
+      "@hooks": ["./@next/hooks"],
+      "@assets": ["./@next/assets"],
+      "@store": ["./@next/store"],
+      "@config": ["./@next/config"],
+      "@images": ["./public/images/images"],
+      "@icons": ["./public/images/icons"],
+      "@svgs": ["./public/images/svgs"],
+      "@constants": ["./@next/constants"],
+      "@themes": ["./@next/themes"],
+      "@helpers": ["./@next/helpers"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "types.d.ts",
+    "next.config.js",
+    "@next/components/molecules/document-verification/apexchart.tsx"
+  ],
+  "exclude": ["node_modules"]
+}
